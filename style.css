@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 2.5;
+  background: cornflowerblue;
+}
+
+.passowrd {
+  text-decoration: none;
+  color: cornflowerblue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  border-radius: 7px;
+  background-color: #eee;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+header {
+  background: #333;
+  color: wheat;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+}
+
+#add-user {
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+#my-form {
+  padding: 1rem;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+#my-form label {
+  display: block;
+}
+
+#my-form input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.error {
+  font-size: 1.5rem;
+  color: wheat;
+  background: coral;
+  border-radius: 13px;
+  text-align: center;
+}
+
+.fab {
+  color: red;
+  font-size: 55px;
+  padding: 1.2rem;
+}
+
+.fa-github:hover {
+  transform: scale(1.6);
+  transition: all 0.7s ease-in-out;
+  color: rgb(0, 0, 0);
+}
+
+.fa-linkedin:hover {
+  transform: scale(1.7);
+  transition: all 0.7s ease-in-out;
+  color: rgb(0, 102, 255);
+}
+
+.fa-youtube:hover {
+  transform: scale(1.8);
+  transition: all 0.7s ease-in-out;
+  color: rgb(0, 0, 0);
+  color: red;
+}
+
+.btn {
+  display: block;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  padding: 13px 20px;
+  margin: 4px 0;
+  cursor: pointer;
+}

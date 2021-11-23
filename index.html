@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Formulario Com javascript</title>
+     <link rel="stylesheet" href="style.css">
+         <script src="https://kit.fontawesome.com/54b7b426e0.js" crossorigin="anonymous"></script>
+
+ </head>
+ <body>
+     
+    <header>
+        <h1>Formulario</h1>
+        <div class="social-media">        
+            <a href="https://github.com/GabrielBento299/"><i class="fab fa-github"></i></a>
+         <a href="https://www.linkedin.com/in/santosgabriel299/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.youtube.com/">  <i class="fab fa-youtube"></i></a> 
+    </header>
+
+    <section class="container">
+        <form id="my-form">
+            <h1 id="add-user">Formulario</h1>
+            <div class=msg></div>
+
+            <div>
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" id="name"  required/>
+        </div>
+
+        <a class="passowrd" href="">Esqueceu sua senha?</a>
+
+           <div> 
+                <label for="email">Email</label>
+                <input type="text" placeholder="Digite seu Email" id="email"  required />
+            </div>
+
+            <div> 
+            <label for="chekbox"></label>
+            <input type="checkbox"  name="chekbox"> Fique conectado por uma semana</label>
+            <input id="submit-button" class="btn" type="submit" value="Submit" />
+        </div>
+
+             <ul id="users"></ul>
+             <ul class="items">
+                <!-- <li class="item">Item1</li>
+                <li class="item">Item2</li>
+                <li class="item">Item3</li> -->
+            </ul>
+        </form>
+
+    
+    </section>
+
+    <script src="script.js"></script>
+
+ </body>
+ </html>
